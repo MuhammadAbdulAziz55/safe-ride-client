@@ -1,0 +1,17 @@
+.background-img {
+  background: url(../../assets/bg-img/Bg.png) no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media only screen and (max-width: 680px) {
+  .background-img {
+    background: url(../../assets/bg-img/Bg.png) no-repeat;
+    height: 100%;
+
+    background-size: cover;
+    background-position: center;
+  }
+}
